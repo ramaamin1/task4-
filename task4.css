@@ -1,0 +1,168 @@
+*{
+    font-family: montserrat;
+}
+
+  .green-line {
+    border: none;
+    height: 3px; 
+    width: 50px;
+    margin: auto;
+    margin-bottom: 4px;
+    background-color:rgb(45, 182, 187) ;
+}
+  
+.Home{
+    color:rgb(63,186,191,1);
+}
+
+ .dflex{
+    background-color: rgb(63,186,191,1);
+    border-radius: 8px;
+ }   
+ 
+ .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: -30%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    border-top: 5px solid rgb(63,186,191,1); /* تحديد لون الإطار العلوي */
+}
+
+
+.icon-container{
+    display: inline-block;  
+    border-radius: 50%;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+       padding: 10px; 
+       background-color: white;
+}  
+.fas{
+    color:rgb(63,186,191,1) 
+}
+.container{
+  padding-left: 90px;
+
+}
+.crd-body{
+  
+  border-radius: 5px;
+  border: 5px solid rgb(253, 252, 252);
+}
+.icons{
+  display: inline-block;  
+  border-radius: 50%;
+   border: 2px dotted rgb(63,186,191,1) ;
+     padding: 10px; 
+     background-color: white;
+}
+
+.card-title{
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;
+}
+.card-text{
+    font-family: 'Arial', sans-serif;
+}
+.about{ background-color: rgb(249, 247, 253);
+      
+}
+.container-fluid{
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.margin{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+.tab-pane img {
+  max-width: 400px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+ 
+}
+.aria{
+  margin-left: 200px;
+}
+.single-box .card-area{
+  color: #adb5bd;
+}
+.single-box ul{ 
+  list-style: none;
+}
+
+.single-box ul li a {
+  text-decoration: none;
+  color: #adb5bd;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+  .footer h5 {
+    font-size: 18px ;
+    margin-bottom: 20px;
+font-family: sans-serif;
+  }
+
+  
+  .footer .divider {
+    border-top: 1px solid #adb5bd;
+    margin: 20px 0;
+  }
+  .social-icons i{
+    color: rgb(163, 158, 158);
+    border-radius: 50%;
+    border: 2px solid rgb(164, 168, 168) ;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  .navbar-one {
+    background-color: rgb(63,186,191,1); 
+    color: white; 
+    
+    height: 30px;
+}
+.navbar-one .nav-text {
+    color: white; 
+}
+.navbar-one .nav-text i {
+    color: white; 
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.tow ul li a{
+  text-decoration: none;
+color: #0a0a0a;
+font-family: sans-serif;
+font-size: 17px;
+}
+.tab-content {
+  margin-top: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.contact-form {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff; 
+}
